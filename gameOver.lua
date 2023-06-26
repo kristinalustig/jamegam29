@@ -49,6 +49,9 @@ function G.calcScore()
       bestWordScore = currScore
     end
     totalScore = totalScore + currScore
+    if word:len() >= 6 then
+      totalScore = totalScore + 5
+    end
     table.insert(wordsParsed, word)
   end
   
