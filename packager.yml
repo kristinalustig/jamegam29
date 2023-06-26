@@ -2,4 +2,5 @@ name: beanstack
 version: 0.0.1
 assets:
   - "*.lua"
+  - "*.txt"
   - assets/**/*
